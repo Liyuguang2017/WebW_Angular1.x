@@ -1,0 +1,26 @@
+﻿{
+    "prebuild": [
+        "jquery",
+        "angular",
+        "router",
+        "bootstrap",
+        "screenfull",
+         "nav",
+        "fullscreen"
+        
+       
+    ],
+  "paths": {
+    "angular": "plugin/angular/angular.js",
+    "bootstrap": "plugin/angular/angular-bootstrap/ui-bootstrap-tpls.js",
+    "fullscreen": "plugin/appjs/ui-fullscreen.js",
+    "jquery": "plugin/jquery/jquery.min.js",
+    "nav": "plugin/appjs/ui-Nav.js",
+    "router": "plugin/angular/angular-ui-router/angular-ui-router.js",
+    "screenfull": "plugin/libs/screenfull.min.js"
+  },
+    "shim": {
+       
+
+    }
+}
